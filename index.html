@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>SMK Antarika 2 Sidoarjo — Profil, MoU &amp; Humas</title>
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+
+<!-- Fonts & icons (CDN) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..900;1,9..40,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!-- Animation + popup CSS (CDN) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+<!-- Tailwind (CDN) -->
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: { sans: ['"DM Sans"', 'sans-serif'] },
+      colors: {
+        primary: '#1A2E7B',
+        secondary: '#EDF0F9',
+        body: '#4A5163',
+        accent: '#C8080A',
+        accent2: '#D83A3C',
+        deep: '#101C4C'
+      },
+      maxWidth: { site: '1300px' }
+    }
+  }
+}
+</script>
+<link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="bg-white font-sans text-[16px] leading-[1.6em] text-body antialiased">
+
+<!-- Preloader -->
+<div class="preloader" id="preloader"><img src="img/loader.svg" alt="Preloader" class="h-14 w-14"></div>
+
+<!-- Magic cursor -->
+<div id="ball" aria-hidden="true"></div>
+
+<!-- Top offer banner -->
+<div class="offer-banner">
+  <p><span class="desktop"><img src="img/1f525.svg" alt="🔥" class="emoji"> Butuh informasi? Hubungi humas</span><span class="tablet-mobile"><img src="img/1f525.svg" alt="🔥" class="emoji"> WA: 08952-431-2666</span></p>
+  <a href="#profil" class="offer-btn" title="Info Sekolah">Info Sekolah</a>
+  <img src="img/right-arrow.gif" alt="" class="offer-animated-arrow">
+</div>
+
+<a href="#content" class="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-16 focus:z-[10001] focus:rounded focus:bg-white focus:px-4 focus:py-2">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header id="siteHeader" class="relative z-50">
+  <!-- Topbar -->
+  <div class="bg-primary text-white">
+    <div class="mx-auto flex max-w-site flex-wrap items-center justify-between gap-x-8 gap-y-2 px-4 py-3 text-[14px]">
+      <div class="flex flex-wrap items-center gap-x-8 gap-y-2">
+        <a href="#" class="topbar-item"><i class="fas fa-clock"></i><span class="font-semibold">Jam Layanan</span><span class="opacity-80">Senin–Jumat 08.00–15.00 WIB</span></a>
+        <a href="mailto:humas@smkantarika2-sda.sch.id" class="topbar-item"><i class="fas fa-envelope"></i><span class="font-semibold">Email</span><span class="opacity-80">humas@smkantarika2-sda.sch.id</span></a>
+      </div>
+      <div class="hidden items-center gap-6 sm:flex">
+        <ul class="flex items-center gap-4 text-[15px]">
+          <li><a href="#" aria-label="Instagram" class="hover:text-accent2"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#" aria-label="Facebook" class="hover:text-accent2"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#" aria-label="linkedin" class="hover:text-accent2"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <a href="tel:6289524312666" class="topbar-item"><span class="font-semibold">HP Humas</span><span class="opacity-80">08952-431-2666</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main nav -->
+  <div id="navBar" class="relative bg-white">
+    <div class="mx-auto flex max-w-site items-center justify-between gap-6 px-4 py-4">
+      <a href="#content" class="shrink-0"><img src="img/ph-logo.svg" alt="default-logo" class="h-[50px] w-auto"></a>
+
+      <nav id="mainNav" class="main-nav" aria-label="Header Menu">
+        <div class="flex justify-end px-5 pt-3 lg:hidden"><button id="navClose" class="h-9 w-9 rounded border border-primary/20 text-primary" type="button" aria-label="Tutup menu">X</button></div>
+        <ul class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-1">
+          <li><a href="#content" class="nav-link active">Beranda</a></li>
+          <li><a href="#profil" class="nav-link">Profil</a></li>
+          <li class="has-sub">
+            <a href="#" class="nav-link">MoU <i class="fas fa-chevron-down ml-1 text-[11px]"></i></a>
+            <ul class="sub-menu">
+              <li><a href="#mou">MoU Industri</a></li>
+              <li><a href="#mou-univ">MoU Universitas</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="#" class="nav-link">Layanan <i class="fas fa-chevron-down ml-1 text-[11px]"></i></a>
+            <ul class="sub-menu">
+              <li><a href="#alur">Alur Layanan</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </li>
+          <li><a href="#pengurus" class="nav-link">Pengurus</a></li>
+          <li><a href="#hubungi" class="nav-link">Kontak</a></li>
+          <li class="lg:hidden"><a href="https://wa.me/6289524312666" class="nav-link">Hubungi Humas</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/6289524312666" class="btn-main hidden lg:inline-block"><span>Hubungi Humas</span></a>
+        <button id="navToggle" class="grid h-11 w-11 place-items-center rounded-lg border border-primary/20 text-primary lg:hidden" type="button" aria-label="Menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="content">
+
+<!-- ============ HERO ============ -->
+<section class="px-3 pt-3 sm:px-4 sm:pt-4">
+  <div class="hero-card mx-auto max-w-[1820px]">
+    <img src="img/hero-photo.svg" alt="" class="hero-photo" fetchpriority="high">
+    <div class="hero-blur" aria-hidden="true"></div>
+
+    <!-- top: trust pill, headline, button -->
+    <div class="hero-top">
+      <div class="hero-trust h-anim">
+        <span class="flex -space-x-2">
+          <img src="img/ph-avatar-1.svg" alt="" class="h-6 w-6 rounded-full border border-white/70">
+          <img src="img/ph-avatar-2.svg" alt="" class="h-6 w-6 rounded-full border border-white/70">
+          <img src="img/ph-avatar-3.svg" alt="" class="h-6 w-6 rounded-full border border-white/70">
+          <img src="img/ph-avatar-4.svg" alt="" class="h-6 w-6 rounded-full border border-white/70">
+        </span>
+        <span>Tim Humas siap membantu</span>
+      </div>
+
+      <h1 class="h-anim mt-5 max-w-[640px] text-[40px] font-medium leading-[1.08em] tracking-tight sm:text-[52px] lg:text-[68px]">Pusat informasi SMK Antarika 2 Sidoarjo</h1>
+
+      <a href="https://wa.me/6289524312666" class="pill-btn h-anim mt-8">
+        <span>Hubungi Humas</span>
+        <span class="pill-btn-arrow"><i class="fas fa-arrow-right"></i></span>
+      </a>
+    </div>
+
+    <!-- bottom: info + glass cards -->
+    <div class="hero-bottom">
+      <div class="h-anim max-w-[360px]">
+        <h2 class="text-[18px] font-medium">Informasi Resmi Humas</h2>
+        <p class="mt-2 text-[13px] leading-[1.6em] text-white/80">Pusat informasi resmi sekolah: profil, MoU industri &amp; universitas, magang/PKL, dan klinik hak cipta.</p>
+      </div>
+
+      <div class="h-anim flex flex-col gap-4 sm:flex-row sm:items-stretch">
+        <div class="glass w-full p-5 sm:w-[220px]">
+          <p class="text-[12px] text-white/80">Akreditasi</p>
+          <p class="mt-1 text-[44px] font-medium leading-none">A</p>
+          <div class="mt-2 flex gap-1 text-[11px] text-[#FFD36B]" role="img" aria-label="Rated 5 out of 5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="mt-3 text-[12px] leading-[1.5em] text-white/80">Terakreditasi A — Buduran, Sidoarjo.</p>
+        </div>
+
+        <div class="glass chip-grid w-full sm:w-[250px]" id="heroChips">
+          <span class="hero-cell"><i class="fas fa-xmark"></i></span>
+          <span class="hero-cell hero-chip active">Magang/PKL</span>
+          <span class="hero-cell hero-chip">MoU</span>
+          <span class="hero-cell"><i class="fas fa-xmark"></i></span>
+          <span class="hero-cell"><i class="fas fa-xmark"></i></span>
+          <span class="hero-cell hero-chip">Hak Cipta</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- slide-timer progress segments -->
+    <div class="hero-progress" id="heroProgress" aria-hidden="true"><span><i></i></span><span><i></i></span><span><i></i></span></div>
+  </div>
+</section>
+
+<!-- ============ PROFIL ============ -->
+<section id="profil" class="mx-auto max-w-site px-4 py-[60px] lg:py-[100px]">
+  <div class="grid items-center gap-14 lg:grid-cols-2">
+    <div>
+      <h3 class="section-title mb-4" data-wow="fadeInUp">Profil Sekolah</h3>
+      <h2 class="split-style-3 text-[32px] font-bold leading-[1.15em] text-primary md:text-[44px]">Mengenal SMK Antarika 2 Sidoarjo</h2>
+      <p class="mt-5" data-wow="fadeInUp" data-wow-delay="0.1s">SMK Antartika 2 Sidoarjo (NPSN 20540077) adalah sekolah menengah kejuruan swasta, Akreditasi A, di Buduran, Sidoarjo, dengan 6 program keahlian: TKJ, Rekayasa Perangkat Lunak, Teknik Mekatronika, Akuntansi, Perbankan, dan Desain Komunikasi Visual. Sekolah menjalankan Program SMK 4 Tahun dengan RPL bersama UMG serta MikroTik Academy (MTCNA).</p>
+
+      <div class="mt-8 space-y-6">
+        <div class="about-info" data-wow="fadeInUp">
+          <span class="about-icon"><svg width="34" height="34" viewBox="0 0 34 34" fill="none"><path d="M12 21s-6.5-5.7-6.5-10.5A6.5 6.5 0 0 1 12 4a6.5 6.5 0 0 1 6.5 6.5C18.5 15.3 12 21 12 21z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10.5" r="2.3" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <div><h3>Alamat Sekolah</h3><p>Jl. Siwalanpanji II, Desa Siwalanpanji, Kec. Buduran, Kab. Sidoarjo, Jawa Timur 61252.</p></div>
+        </div>
+        <div class="about-info" data-wow="fadeInUp" data-wow-delay="0.1s">
+          <span class="about-icon"><svg width="34" height="34" viewBox="0 0 34 34" fill="none"><rect x="3" y="5.5" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="m4 7.5 8 6 8-6" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <div><h3>HP &amp; Email Humas</h3><p>(031) 8065117 / smkantartikadua@gmail.com — WA Humas humas@smkantarika2-sda.sch.id</p></div>
+        </div>
+        <div class="about-info" data-wow="fadeInUp" data-wow-delay="0.2s">
+          <span class="about-icon"><svg width="34" height="32" viewBox="0 0 34 32" fill="none"><circle cx="9" cy="8.5" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 19.5c.5-3 2.7-5 5.5-5s5 2 5.5 5" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="9.5" r="2.2" stroke="currentColor" stroke-width="1.6"/><path d="M15.6 14.4c2.5.3 4.2 2.1 4.9 4.6" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <div><h3>Layanan Humas</h3><p>Senin–Jumat 08.00–15.00 WIB. WA Humas 08952-431-2666 (jam layanan placeholder).</p></div>
+        </div>
+      </div>
+      <a href="#profil" class="btn-main mt-9" data-wow="fadeInUp" data-wow-delay="0.3s"><span>Selengkapnya</span></a>
+    </div>
+
+    <!-- images -->
+    <div class="relative mx-auto w-full max-w-[560px] pb-24 pr-0 sm:pr-24">
+      <div class="reveal-img overflow-hidden rounded-[30px]"><img src="img/ph-about-1.svg" alt="" class="w-full object-cover" style="aspect-ratio:1/1.54" loading="lazy"></div>
+
+      <div class="company-timing">
+        <h2 class="mb-3 text-[20px] font-bold text-white">Jam Layanan Humas</h2>
+        <div class="space-y-1 text-[14px] text-white/85">
+          <div class="flex"><span class="w-1/2">Mon To Fri</span><span class="w-1/2">09:30 - 07:30</span></div>
+          <div class="flex"><span class="w-1/2">Saturday</span><span class="w-1/2">10:30 - 5:00</span></div>
+          <div class="flex"><span class="w-1/2">Sunday</span><span class="w-1/2">Closed</span></div>
+        </div>
+        <span class="timing-icon"><i class="fas fa-clock"></i></span>
+      </div>
+
+      <div class="about-img-2">
+        <img src="img/ph-about-2.svg" alt="" class="w-full rounded-[20px] object-cover" style="aspect-ratio:1/0.965" loading="lazy">
+        <h3 class="mt-3 text-center text-[16px] font-bold text-primary">KLINIK HAK CIPTA</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MOU INDUSTRI ============ -->
+<section id="mou" class="px-0 sm:px-[20px] lg:px-[50px]">
+  <div class="mx-auto max-w-[1820px] bg-primary px-4 py-[60px] sm:rounded-[46px] lg:py-[100px]">
+    <div class="mx-auto max-w-site">
+      <div class="mx-auto max-w-2xl text-center text-white">
+        <h3 class="section-title dark center mb-4" data-wow="fadeInUp">Daftar MoU</h3>
+        <h2 class="split-style-3 text-[32px] font-bold leading-[1.15em] md:text-[44px]">Kerja sama dengan dunia industri</h2>
+      </div>
+
+      <div class="mt-12 grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+        <article class="service-item" data-wow="fadeInUp">
+          <div class="flex items-center gap-4">
+            <span class="service-icon"><svg width="30" height="30" viewBox="0 0 30 30" fill="none"><rect x="4" y="3.5" width="12" height="17" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M16 9.5h4v11M7 7.5h2M7 11h2M7 14.5h2M11 7.5h2M11 11h2M11 14.5h2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+            <h3 class="flex-1 text-[20px] font-bold leading-tight text-primary">PT Alpa Karya Mekatronik</h3>
+            <a href="#mou" class="arrow-btn" aria-label="Detail"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M11.6667 20H27.5" stroke="currentColor" stroke-width="1.5"/><path d="M22.5 14.1666L28.3333 20L22.5 25.8333" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></a>
+          </div>
+          <p class="mt-5 text-[15px]">Mitra MoU 12 September 2023 bersama Komite Sekolah — penyelarasan kurikulum berbasis Revolusi Industri 4.0: kebutuhan digitalisasi industri masuk ke pola pembelajaran agar lulusan siap kerja (fokus kompetensi Mekatronika).</p>
+          <div class="mt-6 overflow-hidden rounded-[20px]"><img src="img/ph-mou-1.svg" alt="" class="w-full object-cover transition duration-500 hover:scale-105" style="aspect-ratio:3/2" loading="lazy"></div>
+        </article>
+
+        <article class="service-item" data-wow="fadeInUp" data-wow-delay="0.1s">
+          <div class="flex items-center gap-4">
+            <span class="service-icon"><svg width="26" height="30" viewBox="0 0 26 30" fill="none"><rect x="4" y="3.5" width="12" height="17" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M16 9.5h4v11M7 7.5h2M7 11h2M7 14.5h2M11 7.5h2M11 11h2M11 14.5h2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+            <h3 class="flex-1 text-[20px] font-bold leading-tight text-primary">PT Surya Timur Sakti</h3>
+            <a href="#mou" class="arrow-btn" aria-label="Detail"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M11.6667 20H27.5" stroke="currentColor" stroke-width="1.5"/><path d="M22.5 14.1666L28.3333 20L22.5 25.8333" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></a>
+          </div>
+          <p class="mt-5 text-[15px]">Mitra MoU 12 September 2023 — sinergi kurikulum dan digitalisasi pembelajaran; guru dan siswa diajarkan lebih cepat mengikuti teknologi industri yang berkembang pesat.</p>
+          <div class="mt-6 overflow-hidden rounded-[20px]"><img src="img/ph-mou-2.svg" alt="" class="w-full object-cover transition duration-500 hover:scale-105" style="aspect-ratio:3/2" loading="lazy"></div>
+        </article>
+
+        <article class="service-item md:col-span-2 lg:col-span-1" data-wow="fadeInUp" data-wow-delay="0.2s">
+          <div class="flex items-center gap-4">
+            <span class="service-icon"><svg width="24" height="30" viewBox="0 0 24 30" fill="none"><rect x="4" y="3.5" width="12" height="17" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M16 9.5h4v11M7 7.5h2M7 11h2M7 14.5h2M11 7.5h2M11 11h2M11 14.5h2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+            <h3 class="flex-1 text-[20px] font-bold leading-tight text-primary">PT Global Power Engineering</h3>
+            <a href="#mou" class="arrow-btn" aria-label="Detail"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M11.6667 20H27.5" stroke="currentColor" stroke-width="1.5"/><path d="M22.5 14.1666L28.3333 20L22.5 25.8333" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></a>
+          </div>
+          <p class="mt-5 text-[15px]">Mitra MoU 12 September 2023 — kerja sama pengembangan kurikulum berbasis industri serta penguatan kompetensi siswa dan tenaga pendidik.</p>
+          <div class="mt-6 overflow-hidden rounded-[20px]"><img src="img/ph-mou-3.svg" alt="" class="w-full object-cover transition duration-500 hover:scale-105" style="aspect-ratio:3/2" loading="lazy"></div>
+        </article>
+      </div>
+
+      <div class="mx-auto mt-12 max-w-3xl text-center text-white" data-wow="fadeInUp" data-wow-delay="0.3s">
+        <p class="text-white/85">Empat MoU industri ditandatangani 12 September 2023 di Aula SMK Antartika 2 oleh Kepala Sekolah Retno Purwolystiorini, S.E., M.M.Pd. dan Ketua Komite Dr. Imam Jawahir, M.Pd. — PT Alpa Karya Mekatronik, PT Surya Timur Sakti, PT Global Power Engineering, dan PT Gading Murni (sumber: Liputan Inspirasi, 14 September 2023).</p>
+        <a href="#mou" class="btn-main mt-8"><span>Semua MoU</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MOU UNIVERSITAS ============ -->
+<section id="mou-univ" class="mx-auto max-w-site px-4 py-[60px] lg:py-[100px]">
+  <div class="grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
+    <div>
+      <h3 class="section-title mb-4" data-wow="fadeInUp">MoU Universitas</h3>
+      <h2 class="split-style-3 text-[32px] font-bold leading-[1.15em] text-primary md:text-[44px]">Daftar MoU perguruan tinggi</h2>
+      <p class="mt-5" data-wow="fadeInUp" data-wow-delay="0.1s">Kerja sama resmi dengan Universitas Muhammadiyah Gresik (UMG) melalui FGD dan penandatanganan MoU 7 Mei 2025 di Meeting Room UMG, sebagai lanjutan Program SMK 4 Tahun yang berjalan sejak 2021 (sumber: umg.ac.id, 7 Mei 2025).</p>
+      <ul class="mt-7 space-y-4" data-wow="fadeInUp">
+        <li class="check-item">Kerja sama yang dibahas: pendidikan vokasi, pengembangan kurikulum berbasis industri, program magang, dan RPL.</li>
+        <li class="check-item">Konsentrasi keahlian yang diujikan pada assessment Program SMK 4 Tahun: Mekatronika.</li>
+        <li class="check-item">Pertanyaan MoU dapat dikirim ke WA Humas 08952-431-2666.</li>
+        <li class="check-item">Melayani siswa, orang tua, dan mitra industri (placeholder).</li>
+      </ul>
+    </div>
+
+    <div class="overflow-hidden rounded-[30px] bg-gradient-to-br from-primary to-deep">
+      <div class="grid h-[260px] place-items-center">
+        <a class="video-play popup-youtube" href="https://www.youtube.com/embed/Y-x0efG1seA?feature=oembed&playlist=Y-x0efG1seA&mute=0&autoplay=0&loop=no&controls=0&start=0" aria-label="Play video">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M5 26.875V3.125L25 15L5 26.875Z" stroke="currentColor" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="space-y-6 bg-white/5 p-7 text-white">
+        <div class="why-item" data-wow="fadeInUp">
+          <span class="why-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 4 3 8.5 12 13l9-4.5L12 4z" stroke="currentColor" stroke-width="1.6"/><path d="M6.5 10.8V15c0 1.4 2.5 2.5 5.5 2.5s5.5-1.1 5.5-2.5v-4.2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <div><h3>UMG – Universitas Muhammadiyah Gresik</h3><p>FGD &amp; MoU pendidikan vokasi: kurikulum berbasis industri, program magang, dan asesmen RPL. Dihadiri Rektor UMG Prof. Dr. Khoirul Anwar, S.Pd., M.Pd. beserta jajaran dan Kepala Sekolah.</p></div>
+        </div>
+        <div class="why-item" data-wow="fadeInUp" data-wow-delay="0.1s">
+          <span class="why-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H12v16H6.5A2.5 2.5 0 0 0 4 21.5v-16z" stroke="currentColor" stroke-width="1.6"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H12v16h5.5A2.5 2.5 0 0 1 20 21.5v-16z" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <div><h3>Program SMK 4 Tahun &amp; RPL</h3><p>Asesmen RPL (Rekognisi Pembelajaran Lampau) Program SMK 4 Tahun untuk konsentrasi Mekatronika; 2025 merupakan assessment terakhir — disusul kolaborasi lanjutan sesuai Tri Dharma.</p></div>
+        </div>
+        <div class="why-item" data-wow="fadeInUp" data-wow-delay="0.2s">
+          <span class="why-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="4" y="3.5" width="12" height="17" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M16 9.5h4v11M7 7.5h2M7 11h2M7 14.5h2M11 7.5h2M11 11h2M11 14.5h2" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <div><h3>Kolaborasi Prodi UMG</h3><p>Kolaborasi dengan prodi UMG menyesuaikan konsentrasi sekolah: Akuntansi, Perbankan, DKV, Rekayasa Perangkat Lunak, dan Instalasi &amp; Jaringan.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ALUR LAYANAN ============ -->
+<section id="alur" class="px-0 sm:px-[20px] lg:px-[50px]">
+  <div class="mx-auto max-w-[1820px] bg-primary px-4 py-[60px] sm:rounded-[46px] lg:py-[100px]">
+    <div class="mx-auto max-w-site">
+      <div class="mx-auto max-w-2xl text-center text-white">
+        <h3 class="section-title dark center mb-4" data-wow="fadeInUp">Alur Layanan Humas</h3>
+        <h2 class="split-style-3 text-[32px] font-bold leading-[1.15em] md:text-[44px]">Alur layanan humas yang mudah</h2>
+        <p class="mt-4 text-white/80" data-wow="fadeInUp" data-wow-delay="0.1s">Ikuti empat langkah di bawah untuk menghubungi humas, mengirim berkas, mendaftarkan hak cipta, dan memantau prosesnya.</p>
+      </div>
+
+      <div class="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="work-step group">
+          <div class="step-img"><img src="img/ph-step-1.svg" alt="" loading="lazy"></div>
+          <span class="step-num">01</span>
+          <h3>Hubungi WA Humas</h3><p>Butuh bantuan? Kirim pesan ke WA humas 08952-431-2666.</p>
+        </div>
+        <div class="work-step group">
+          <div class="step-img"><img src="img/ph-step-2.svg" alt="" loading="lazy"></div>
+          <span class="step-num">02</span>
+          <h3>Kirim Berkas</h3><p>Butuh bantuan? Kirim pesan ke WA humas 08952-431-2666.</p>
+        </div>
+        <div class="work-step group">
+          <div class="step-img"><img src="img/ph-step-3.svg" alt="" loading="lazy"></div>
+          <span class="step-num">03</span>
+          <h3>Daftar Hak Cipta</h3><p>Butuh bantuan? Kirim pesan ke WA humas 08952-431-2666.</p>
+        </div>
+        <div class="work-step group">
+          <div class="step-img"><img src="img/ph-step-4.svg" alt="" loading="lazy"></div>
+          <span class="step-num">04</span>
+          <h3>Pantau Proses</h3><p>Butuh bantuan? Kirim pesan ke WA humas 08952-431-2666.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="px-0 sm:px-[20px] lg:px-[50px] mt-[60px] lg:mt-[100px]">
+  <div class="mx-auto max-w-[1820px] rounded-none bg-secondary px-4 py-[60px] sm:rounded-[46px] lg:py-[100px]">
+    <div class="mx-auto grid max-w-site gap-12 lg:grid-cols-[5fr_7fr]">
+      <div class="lg:sticky lg:top-8 lg:self-start">
+        <h3 class="section-title mb-4" data-wow="fadeInUp">Pertanyaan Umum</h3>
+        <h2 class="split-style-3 text-[32px] font-bold leading-[1.15em] text-primary md:text-[44px]">Info seputar layanan humas</h2>
+        <p class="mt-5" data-wow="fadeInUp" data-wow-delay="0.1s">Pertanyaan umum seputar layanan humas (placeholder).— (placeholder).</p>
+
+        <div class="faq-cta mt-8" data-wow="fadeInUp" data-wow-delay="0.2s">
+          <span class="faq-cta-icon"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 512 510" fill="none"><path d="M386.032 474.239L360.646 494.932C241.286 592.425 -94.0737 181.758 25.2863 84.2656L50.6724 63.5723L148.806 183.572C112.006 236.585 228.913 379.626 288.006 354.239L386.032 474.239Z" fill="currentColor"/><path d="M398.426 464.125L418.688 447.579C434.828 434.399 437.227 410.63 424.046 394.49L374.616 333.96C361.436 317.82 337.667 315.421 321.527 328.601L301.266 345.147L398.426 464.125Z" fill="currentColor"/><path d="M160.208 172.414L180.469 155.868C196.609 142.688 199.008 118.919 185.828 102.779L136.397 42.2495C123.217 26.1093 99.4482 23.7101 83.3084 36.8902L63.0469 53.4364L160.208 172.414Z" fill="currentColor"/><path d="M377.604 0.212891C303.364 0.212891 243.098 60.4791 243.098 134.613C243.098 208.853 303.364 269.119 377.604 269.119C451.951 269.119 512.004 208.853 512.004 134.613C512.004 60.4791 451.951 0.212891 377.604 0.212891ZM440.964 150.399C449.604 155.413 452.484 166.399 447.578 175.146C442.373 184.213 430.705 186.433 422.938 181.652L395.631 165.866V197.44C395.631 207.359 387.524 215.573 377.604 215.573C367.535 215.573 359.471 207.277 359.471 197.44V165.866L332.164 181.652C323.524 186.666 312.431 183.679 307.524 175.146C302.581 166.804 305.27 155.49 314.137 150.399L341.444 134.613L314.137 118.826C305.497 113.919 302.511 102.933 307.524 94.1861C312.172 86.0894 322.652 82.2867 332.164 87.5728L359.471 103.359V71.7858C359.471 61.8659 367.578 53.7591 377.604 53.7591C388.098 53.7591 395.631 62.6235 395.631 71.7858V103.359L422.938 87.5729C431.471 82.666 442.565 85.5462 447.578 94.1862C452.765 103.52 449.273 114.056 440.964 118.826L413.658 134.613L440.964 150.399Z" fill="currentColor"/></svg></span>
+          <div class="relative z-10"><p class="faq-cta-label">Pertanyaan umum layanan humas</p><h3 class="faq-cta-title">Klinik Hak Cipta</h3><p class="faq-cta-label">08952-431-2666</p></div>
+        </div>
+      </div>
+
+      <div class="faq-accordion space-y-4" data-wow="fadeInUp">
+        <div class="faq-item active">
+          <button class="faq-q" type="button" aria-expanded="true"><span>Bagaimana cara mengajukan MoU dengan sekolah?</span><i class="fas fa-plus"></i></button>
+          <div class="faq-a"><p>Jawaban placeholder — lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span>Bagaimana cara mendaftar magang/PKL?</span><i class="fas fa-plus"></i></button>
+          <div class="faq-a"><p>Jawaban placeholder — lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span>Bagaimana cara mendaftarkan hak cipta karya?</span><i class="fas fa-plus"></i></button>
+          <div class="faq-a"><p>Jawaban placeholder — lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span>Bagaimana cara menghubungi panitia magang/PKL?</span><i class="fas fa-plus"></i></button>
+          <div class="faq-a"><p>Jawaban placeholder — lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span>Ke mana saya bisa menghubungi humas?</span><i class="fas fa-plus"></i></button>
+          <div class="faq-a"><p>Jawaban placeholder — lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span>Bagaimana cara mengajukan kerja sama MoU dengan sekolah?</span><i class="fas fa-plus"></i></button>
+          <div class="faq-a"><p>Jawaban placeholder — lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PENGURUS ============ -->
+<section id="pengurus" class="mx-auto max-w-site px-4 py-[60px] lg:py-[100px]">
+  <div class="mx-auto max-w-2xl text-center">
+    <h3 class="section-title center mb-4" data-wow="fadeInUp">Pengurus Humas</h3>
+    <h2 class="split-style-3 text-[32px] font-bold leading-[1.15em] text-primary md:text-[44px]">Tim pengurus humas sekolah</h2>
+    <p class="mt-4" data-wow="fadeInUp" data-wow-delay="0.1s">Tim pengurus humas sekolah (placeholder).</p>
+  </div>
+
+  <div class="mt-12 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
+    <article class="team-member" data-wow="fadeInUp">
+      <div class="team-image"><img src="img/ph-team-1.svg" alt="" loading="lazy"><ul class="team-social"><li><a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li><li><a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li><li><a href="#" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin"></i></a></li></ul></div>
+      <div class="team-body"><h3><a href="#pengurus">Dr. Esther Howard</a></h3><p>Ophthalmology</p></div>
+    </article>
+    <article class="team-member" data-wow="fadeInUp" data-wow-delay="0.1s">
+      <div class="team-image"><img src="img/ph-team-2.svg" alt="" loading="lazy"><ul class="team-social"><li><a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li><li><a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li><li><a href="#" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin"></i></a></li></ul></div>
+      <div class="team-body"><h3>Nama Pengurus 2 (placeholder)</h3><p>Anesthesiology</p></div>
+    </article>
+    <article class="team-member" data-wow="fadeInUp" data-wow-delay="0.2s">
+      <div class="team-image"><img src="img/ph-team-3.svg" alt="" loading="lazy"><ul class="team-social"><li><a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li><li><a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li><li><a href="#" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin"></i></a></li></ul></div>
+      <div class="team-body"><h3>Nama Pengurus 3 (placeholder)</h3><p>Infectious Disease</p></div>
+    </article>
+    <article class="team-member" data-wow="fadeInUp" data-wow-delay="0.3s">
+      <div class="team-image"><img src="img/ph-team-4.svg" alt="" loading="lazy"><ul class="team-social"><li><a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li><li><a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li><li><a href="#" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin"></i></a></li></ul></div>
+      <div class="team-body"><h3>Nama Pengurus 4 (placeholder)</h3><p>Cardiology</p></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section id="hubungi" class="px-0 sm:px-[20px] lg:px-[50px]">
+  <div class="mx-auto max-w-[1820px] overflow-hidden bg-gradient-to-r from-accent to-accent2 sm:rounded-[46px]">
+    <div class="mx-auto grid max-w-site items-center gap-8 px-4 py-14 text-white md:grid-cols-[1fr_1.4fr_1fr]">
+      <img src="img/ph-cta-1.svg" alt="" class="mx-auto hidden w-full max-w-[303px] rounded-[24px] md:block" loading="lazy">
+      <div class="text-center">
+        <h2 class="split-style-3 text-[32px] font-bold leading-[1.15em] md:text-[44px]">Hubungi tim humas sekarang</h2>
+        <a href="https://wa.me/6289524312666" class="btn-main btn-white mt-8" data-wow="fadeInUp"><span>Hubungi Humas Sekarang</span></a>
+        <p class="mt-5 text-white/90" data-wow="fadeInUp" data-wow-delay="0.1s">It only <strong>takes 2 minutes</strong> to complete</p>
+      </div>
+      <img src="img/ph-cta-2.svg" alt="" class="mx-auto hidden w-full max-w-[402px] rounded-[24px] md:block" loading="lazy">
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="mt-[60px] bg-primary text-white/80">
+  <div class="mx-auto grid max-w-site gap-10 px-4 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.4fr]">
+    <div>
+      <img src="img/ph-logo.svg" alt="" class="h-[51px] w-auto rounded bg-white p-2">
+      <p class="mt-5">SMK Antarika 2 Sidoarjo — halaman contoh untuk tim humas.</p>
+      <ul class="mt-6 flex gap-3">
+        <li><a href="#" aria-label="Instagram" class="foot-social"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" aria-label="Official School" class="foot-social"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#" aria-label="LinkedIn" class="foot-social"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="foot-title">SMK Antarika 2</h2>
+      <ul class="foot-links">
+        <li><a href="#">Pengurus</a></li><li><a href="#">Diagnostics</a></li><li><a href="#">Caregiver</a></li><li><a href="#">Hospitality</a></li><li><a href="#">Emergency</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="foot-title">Tautan Cepat</h2>
+      <ul class="foot-links">
+        <li><a href="#">Beranda</a></li><li><a href="#profil">Profil</a></li><li><a href="#faq">FAQS</a></li><li><a href="#pengurus">Pengurus</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="foot-title">Kontak Humas</h2>
+      <ul class="space-y-5">
+        <li class="foot-contact"><span><i class="fas fa-envelope"></i></span><h3>humas@smkantarika2-sda.sch.id</h3></li>
+        <li class="foot-contact"><span><i class="fas fa-phone"></i></span><h3>08952-431-2666</h3></li>
+        <li class="foot-contact"><span><i class="fas fa-location-dot"></i></span><h3>Jl. Siwalanpanji II, Buduran, Sidoarjo 61252</h3></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/15">
+    <div class="mx-auto flex max-w-site flex-col items-center justify-between gap-3 px-4 py-6 text-[15px] sm:flex-row">
+      <p>Copyright © 2026 <a href="#" class="text-white hover:text-accent2">SMK Antarika 2</a>. All rights reserved.</p>
+      <ul class="flex gap-6"><li><a href="#" class="hover:text-white">Privacy Policy</a></li><li><a href="#" class="hover:text-white">Terms &amp; Conditions</a></li></ul>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts (all CDN) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
